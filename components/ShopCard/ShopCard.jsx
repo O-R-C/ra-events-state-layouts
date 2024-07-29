@@ -8,6 +8,7 @@ const ShopCard = ({ card }) => {
       <p className={styles['color']}>{card.color}</p>
       <div className={styles['image']}>
         <img
+          className={styles['img']}
           src={card.img}
           alt='card'
         />
