@@ -1,5 +1,6 @@
 .store {
   width: 1200px;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
